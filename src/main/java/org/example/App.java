@@ -1,8 +1,11 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 1 Solution
+ *  Copyright 2021 Ryan Persad
+ */
 package org.example;
 import java.util.Scanner;
-/**
- *
- */
+
+
 public class App 
 {
     public static void main( String[] args )
@@ -15,10 +18,10 @@ public class App
         System.out.println( "Enter a verb" );
         //Input
         String verb =  myObj.nextLine();
-        System.out.println( "Enter a adjective" );
+        System.out.println( "Enter an adjective" );
         //Input
         String adj  =  myObj.nextLine();
-        System.out.println( "Enter adverb" );
+        System.out.println( "Enter an adverb" );
         //Input
         String adv =  myObj.nextLine();
         //Output
